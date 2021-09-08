@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+}
+.header-content img{
+    width: 349px;
+    height: 400px;
+    margin-right: 80px;
+}
+.header-content-name {
+    font-size: 58px;
+    text-transform:uppercase;
+    margin-right: 200px;
+}
+.header-content-name span {
+    font-weight: 700;
+}
+.header-content-position {
+    font-size: 22px;
+    font-weight: 300;
+}
+.header-sqr {
+    width: 70px;
+    display: block;
+    height: 70px;
+    background-color: black;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+}
+.first-column {
+    width: 60%;
+}
+.personal-inf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:black;
+    padding: 30px 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.personal-inf p {
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.second-column {
+    width: 40%;
+    background-color: #ebebeb;
+}
+
+.info-profile {
+    padding: 30px 40px 10px 40px;
+}
+
+.info-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.info-descriptions {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.info-description {
+    margin-bottom: 40px;
+}
+
+.info-years {
+    font-weight: 400;
+}
+.info-span {
+    font-weight: 500;
+    /* margin-top: 5px; */
+}
+
+.info-company, .info-years {
+    margin-bottom: 10px;
+}
+
+.info-respons, .info-descript {
+    margin: 0;
+    font-weight: 300;
+}
+
+.info {
+    display: block;
+    margin: 70px;
+    align-items: center;
+}
+
+.education {
+    margin-bottom: 30px;
+}
+
