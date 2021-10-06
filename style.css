@@ -221,6 +221,12 @@
     align-items: center;
 }
 
+.more-proj {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
 .education {
     margin-bottom: 30px;
 }
